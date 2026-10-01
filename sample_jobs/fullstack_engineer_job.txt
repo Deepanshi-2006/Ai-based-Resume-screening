@@ -1,0 +1,12 @@
+Job Title: Full Stack Software Engineer
+Company: ModernWeb Labs
+
+Overview:
+We are looking for a versatile Full Stack Developer to build user interfaces and scalable APIs.
+
+Key Requirements:
+- Frontend: Proficiency in React, TypeScript, JavaScript, HTML, and CSS.
+- Backend: Experience designing REST APIs using Node.js or Python.
+- Databases: Hands-on experience with PostgreSQL or MongoDB, and Redis caching.
+- Version Control & Testing: Proficient with Git and unit testing (Jest or Pytest).
+- Experience with Next.js or Tailwind CSS is a strong advantage.

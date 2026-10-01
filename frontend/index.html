@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Based Resume Screening MVP</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">B.Tech Academic Project • MVP 1.0</span>
+      <h1>AI-Based Resume Screening</h1>
+      <p class="subtitle">Transparent & Explainable Skill Matching for Resumes and Job Descriptions</p>
+    </header>
+
+    <div id="error-alert" class="alert alert-danger" style="display: none;"></div>
+
+    <main class="card">
+      <div class="form-grid">
+        <!-- Resume Upload Box -->
+        <div class="form-group">
+          <label for="resume-file">1. Upload Resume (PDF / DOCX)</label>
+          <div class="file-upload-box" id="file-dropzone">
+            <div class="icon">📄</div>
+            <p><strong>Click to browse</strong> or drag & drop</p>
+            <p style="font-size: 0.8rem; color: var(--gray-600); margin-top: 0.25rem;">Supported formats: PDF, DOCX (Max 5MB)</p>
+            <div class="file-name" id="selected-file-name"></div>
+            <input type="file" id="resume-file" accept=".pdf,.docx">
+          </div>
+        </div>
+
+        <!-- Job Description Input -->
+        <div class="form-group">
+          <label for="job-description">2. Paste Job Description</label>
+          <textarea id="job-description" placeholder="Paste the job description here (e.g. We are looking for a Python developer with SQL, Docker, and REST API experience...)" spellcheck="false"></textarea>
+        </div>
+      </div>
+
+      <button id="submit-btn" class="btn btn-primary">Screen Resume</button>
+    </main>
+
+    <!-- Results Section -->
+    <section id="results-card" class="card results-card">
+      <div id="results-content"></div>
+    </section>
+
+    <!-- Ethical and Explainability Notice (PRD Section 16) -->
+    <aside class="ethical-notice">
+      <strong>Ethical & Safety Notice:</strong> This academic prototype uses transparent, rule-based skill comparison to assist reviewers. It does not perform automated candidate selection or rejection, and sensitive personal attributes are strictly excluded from scoring. Human evaluation is required.
+    </aside>
+  </div>
+
+  <script type="module">
+    import { initScreeningPage } from "./src/pages/screening_page.js";
+    document.addEventListener("DOMContentLoaded", initScreeningPage);
+  </script>
+</body>
+</html>

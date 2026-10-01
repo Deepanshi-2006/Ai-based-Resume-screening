@@ -1,0 +1,12 @@
+Job Title: Cybersecurity Analyst / Security Specialist
+Company: CyberDefend Inc.
+
+Job Summary:
+Join our security operations center (SOC) to detect threats and conduct vulnerability assessments.
+
+Required Skills:
+- In-depth understanding of Network Security and Web Security principles (OWASP Top 10).
+- Hands-on experience with Penetration Testing and Ethical Hacking tools.
+- Familiarity with SIEM monitoring and incident response workflows.
+- Strong scripting skills in Python and Bash in Linux environments.
+- Solid grasp of Cryptography fundamentals.

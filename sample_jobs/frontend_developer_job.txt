@@ -1,0 +1,12 @@
+Job Title: Frontend Web Developer
+Department: Engineering
+
+Key Responsibilities:
+- Develop responsive, accessible web interfaces.
+- Collaborate with designers and backend teams.
+
+Required Skills:
+- HTML, CSS, JavaScript, and TypeScript.
+- Strong hands-on experience with React.
+- Version control using Git and GitHub.
+- Experience consuming RESTful APIs.

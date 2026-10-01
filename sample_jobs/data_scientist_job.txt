@@ -1,0 +1,18 @@
+Job Title: Senior Data Scientist / ML Engineer
+Company: Alpha Analytics
+
+About the Role:
+We are seeking an experienced Data Scientist to design and deploy state-of-the-art machine learning models and NLP systems.
+
+Key Responsibilities:
+- Build and fine-tune machine learning and deep learning pipelines.
+- Implement NLP and RAG (Retrieval-Augmented Generation) applications.
+- Query large-scale relational databases using SQL to extract training features.
+- Collaborate with engineering teams to deploy models into production.
+
+Required Qualifications:
+- Strong programming background in Python and SQL.
+- Deep expertise in Machine Learning, Deep Learning, and NLP.
+- Hands-on experience with PyTorch or TensorFlow, and Scikit-Learn.
+- Proficient in data wrangling using Pandas and NumPy.
+- Familiarity with Power BI or Tableau for communicating insights.

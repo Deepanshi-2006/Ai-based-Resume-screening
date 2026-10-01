@@ -1,0 +1,17 @@
+Job Title: Cloud DevOps Engineer
+Company: Apex Cloud Solutions
+
+About the Role:
+We are looking for a Cloud DevOps Engineer to maintain our multi-region cloud infrastructure, containerized workloads, and CI/CD pipelines.
+
+Responsibilities:
+- Manage production Kubernetes (k8s) clusters on AWS.
+- Automate cloud infrastructure using Terraform and Ansible.
+- Build continuous integration and continuous deployment (CI/CD) pipelines.
+- Maintain system reliability and observability using Prometheus and Grafana on Linux servers.
+
+Requirements:
+- Proven experience with Docker and Kubernetes (k8s).
+- Strong knowledge of AWS cloud services and Terraform.
+- Scripting ability in Python or Bash.
+- Hands-on experience with Linux administration and Git.
