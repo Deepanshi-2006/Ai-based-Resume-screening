@@ -85,6 +85,14 @@ AI-Based Resume Screening/
      ```
 2. Navigate to `http://127.0.0.1:3000` in your web browser.
 
+### 3. Deploying to Vercel (Production)
+1. Log in to [Vercel](https://vercel.com) using your GitHub account.
+2. Click **Add New...** → **Project**.
+3. Select and import **`Ai-based-Resume-screening`**.
+4. Leave all default project settings (Framework: **Other**, Root: `./`).
+5. Click **Deploy**.
+*Vercel will deploy the Python Serverless API and Edge CDN frontend automatically!*
+
 ---
 
 ## 🧪 Running Automated Tests

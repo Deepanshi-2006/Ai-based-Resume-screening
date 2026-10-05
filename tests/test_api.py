@@ -17,6 +17,21 @@ def test_health_endpoint():
     assert data["service"] == "resume-screening-api"
 
 
+def test_vercel_api_health_endpoint():
+    response = client.get("/api/health")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "healthy"
+
+
+def test_vercel_entrypoint_import():
+    from api.index import app as vercel_app
+    assert vercel_app is not None
+    vercel_client = TestClient(vercel_app)
+    res = vercel_client.get("/health")
+    assert res.status_code == 200
+
+
 def test_screen_resume_missing_file():
     response = client.post("/screen-resume", data={"job_description": "We need Python and SQL"})
     assert response.status_code == 400

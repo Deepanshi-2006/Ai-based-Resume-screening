@@ -31,12 +31,14 @@ app.add_middleware(
 
 
 @app.get("/health")
+@app.get("/api/health")
 def health_check():
     """Health check endpoint to verify backend service status."""
     return {"status": "healthy", "service": "resume-screening-api"}
 
 
 @app.post("/screen-resume")
+@app.post("/api/screen-resume")
 async def screen_resume(
     file: UploadFile = File(None),
     job_description: str = Form("")
